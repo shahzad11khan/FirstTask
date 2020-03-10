@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	background-color: #FFF;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #D6D9E8;
+}
+
+#head {
+	background-color: #0F6;
+	height: 100px;
+	position: relative;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#what {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 44px;
+	font-weight: bold;
+	margin-left: 170px;
+	position: absolute;
+	left: 90px;
+	color: #FFF;
+	top: 40px;
+}
+#log {
+	position: absolute;
+	left: 750px;
+	top: 20px;
+	width: 300px;
+	color: #FFF;
+	background-color: #00FD65;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+
+#lo {
+	position: absolute;
+	left: 200px;
+	top: 45px;
+}
+#main {
+	background-image: url(images/bg.JPG);
+	background-repeat: repeat-x;
+	position: relative;
+}
+#mainleft {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	width: 370px;
+	color: #006;
+}
+#mainright {
+	position: absolute;
+	left: 750px;
+	top: 98px;
+	width: 355px;
+}
+.btn {
+	font-size: 16px;
+	color: #FFF;
+	background-image: url(images/btnBG.JPG);
+	background-repeat: repeat-x;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	border-radius: 5px;
+	border-radius:15px;
+}
+
+.hand {
+	border: thin solid #00FD65;
+	border-radius:50px;
+}
+.inputt
+{
+	color:gray;
+	font-size:  15px bold;
+	padding: 8px 10px;
+	margin: 3px; 
+	border-bottom:2px solid lightgray;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+}
